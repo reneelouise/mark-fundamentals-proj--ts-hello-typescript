@@ -11,7 +11,7 @@ const joinedArr = arrOne + arrTwo;
 console.log(`Array addition: ${arrOne} + ${arrTwo} is... ${joinedArr}`);
 
 const rectangle = { width: 4, height: 10 };
-const area = rectangle.width * rectangle.heihgt; // an easy typo to make!
+const area = rectangle.width * rectangle.height; // an easy typo to make!
 console.log(
   `Rectangle area: ${rectangle.width} x ${rectangle.height} is... ${area}`
 );

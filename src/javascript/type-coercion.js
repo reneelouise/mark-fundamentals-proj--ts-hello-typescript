@@ -23,7 +23,7 @@ const sumOne = myBoolean + 3;
 console.log(sumOne); // 4
 console.log(typeof sumOne); // 'number'
 
-const sumTwo = sumOne + myString;
+const sumTwo = sumOne +  myString;
 // oh, you're adding the string "real" to a number?
 // well, I don't really know what it means to add "real" to a number.
 // if you'd given me "for " + "real", I could have given you back "for real"
@@ -34,3 +34,6 @@ const sumTwo = sumOne + myString;
 
 console.log(sumTwo); // "4real"
 console.log(typeof sumTwo); // "number"
+
+
+
